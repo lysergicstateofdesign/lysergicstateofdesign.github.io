@@ -1,0 +1,117 @@
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  border-radius: 50%;
+}
+
+body {
+    background-color:#000000;
+    text-align: center;
+  }
+
+p {
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+
+.header1 {
+  font-family: 'Righteous', cursive;
+  font-size: 4vw;
+  color: #22685b;
+}
+
+.header2 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.5vw;
+  color: #ffffff;
+}
+
+.header3 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2.2vw;
+  color: #ffffff;
+}
+
+.link1 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 3vw;
+  text-align: center;
+  color: #c49aec;
+  margin: 0px 5px 0px 5px;
+  transition: 0.5s;
+}
+
+.link1:hover {
+  color: #22685b;
+}
+
+.link2 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.5vw;
+  text-align: center;
+  color: #c49aec;
+  margin: 0px 5px 0px 5px;
+  transition: 0.5s;
+}
+
+.link2:hover {
+  color: #22685b;
+}
+
+@media screen and (max-width: 786px) {
+  .link1 {
+    font-size: 3.5vw;
+  }
+  .link2 {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .header1 {
+    font-size: 6vw;
+  }
+  .header2 {
+    font-size: 2vw;
+  }
+  .header3 {
+    font-size: 3vw;
+  }
+  .link1 {
+    font-size: 4vw;
+  }
+  .link2 {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header1 {
+    font-size: 4.5vw;
+  }
+  .header2 {
+    font-size: 1.5vw;
+  }
+  .header3 {
+    font-size: 2.2vw;
+  }
+  .link2 {
+    font-size: 1.5vw;
+  }
+}
